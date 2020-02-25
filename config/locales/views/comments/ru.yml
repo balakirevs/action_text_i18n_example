@@ -1,0 +1,17 @@
+ru:
+  comments:
+    index:
+      title: Комментарии
+      no_comments: Нет комментарий
+      show: Посмотреть
+      edit: Редактировать
+      destroy: Удалить
+      sure: Вы уверены?
+      new: Прокоментировать
+    show:
+      back: Назад
+      edit: Редактировать
+      create: Прокоментировать
+    new:
+      new: Прокоментировать
+      back: Назад

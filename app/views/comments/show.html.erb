@@ -1,0 +1,6 @@
+<p id="notice"><%= notice %></p>
+
+<strong><%= raw @comment&.content_body %></strong><br>
+
+<%= link_to t('.edit'), edit_comment_path(@comment) if @comment&.content_body.present? %>
+<%= link_to t('.back'), comments_path %>

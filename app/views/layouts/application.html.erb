@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ActionTextExample</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="nav">
+        <% I18n.available_locales.each do |locale| %>
+          <%= link_to_unless_current locale.to_s.capitalize, locale: locale.to_s %>
+        <% end %>
+      </div>
+      <%= yield %>
+    </div>
+  </body>
+</html>

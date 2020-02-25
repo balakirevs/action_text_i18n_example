@@ -1,0 +1,17 @@
+en:
+  comments:
+    index:
+      title: Comments
+      no_comments: No comments
+      show: Show
+      edit: Edit
+      destroy: Destroy
+      sure: Are you sure?
+      new: New comment
+    show:
+      back: Back
+      edit: Edit
+      create: Create comment
+    new:
+      new: New comment
+      back: Back
